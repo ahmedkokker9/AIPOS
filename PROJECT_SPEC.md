@@ -1274,3 +1274,202 @@ A feature should:
 ## Key Principle
 
 A feature is complete only when it satisfies its requirements, passes its acceptance criteria, and integrates correctly with the rest of the project.
+
+# 8. API Specification
+
+## Purpose
+
+APIs define how different parts of the system communicate.
+
+A well-defined API specification ensures consistency, maintainability, and reliable integration between modules and external systems.
+
+Every API should be documented before implementation.
+
+---
+
+## API Structure
+
+Every API endpoint should define the following information.
+
+### Endpoint Name
+
+Provide a clear and descriptive name.
+
+Examples:
+
+- Login
+- Create Product
+- Update Profile
+- Get Orders
+
+---
+
+### HTTP Method
+
+Specify the request method.
+
+Examples:
+
+- GET
+- POST
+- PUT
+- PATCH
+- DELETE
+
+---
+
+### Endpoint Path
+
+Define the endpoint URL.
+
+Example:
+
+/api/v1/products
+
+---
+
+### Purpose
+
+Describe what the endpoint does.
+
+Focus on business functionality rather than implementation details.
+
+---
+
+### Authentication
+
+Specify whether authentication is required.
+
+Examples:
+
+- Public
+- Authenticated User
+- Administrator
+
+---
+
+### Request Parameters
+
+Document all expected inputs.
+
+Include:
+
+- Path Parameters
+- Query Parameters
+- Request Body
+
+Each parameter should specify:
+
+- Name
+- Type
+- Required
+- Description
+
+---
+
+### Response
+
+Document successful responses.
+
+Include:
+
+- HTTP Status Code
+- Response Body
+- Returned Data
+
+---
+
+### Error Responses
+
+List possible error scenarios.
+
+Examples:
+
+- 400 Bad Request
+- 401 Unauthorized
+- 403 Forbidden
+- 404 Not Found
+- 409 Conflict
+- 500 Internal Server Error
+
+Describe when each error should occur.
+
+---
+
+### Validation Rules
+
+Define request validation requirements.
+
+Examples:
+
+- Required fields
+- Length restrictions
+- Value ranges
+- Supported formats
+
+---
+
+### Business Rules
+
+Document any business-specific rules.
+
+Examples:
+
+- Email must be unique.
+- Products cannot have negative prices.
+- Users cannot delete their own administrator account.
+
+---
+
+### Dependencies
+
+Document related modules or external services.
+
+Examples:
+
+- Authentication Module
+- Database
+- Payment Provider
+- Email Service
+
+---
+
+### Status
+
+Track implementation progress.
+
+Suggested values:
+
+- Planned
+- In Progress
+- Completed
+- Deprecated
+
+---
+
+## API Design Principles
+
+Every API should:
+
+- Follow RESTful conventions whenever applicable.
+- Use consistent naming.
+- Return predictable responses.
+- Validate all input.
+- Handle errors gracefully.
+- Avoid exposing internal implementation details.
+
+---
+
+## Versioning
+
+Public APIs should support versioning when breaking changes are introduced.
+
+Example:
+
+/api/v1/...
+
+---
+
+## Key Principle
+
+Every API should be predictable, secure, well-documented, and easy to consume by both humans and software.
