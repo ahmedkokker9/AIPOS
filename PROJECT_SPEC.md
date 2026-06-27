@@ -1,3 +1,26 @@
+# How to Use AIPOS
+
+## For Humans
+
+1. Define the project.
+2. Fill the Project Specification.
+3. Define modules.
+4. Define features.
+5. Start implementation.
+6. Keep the specification updated.
+
+---
+
+## For AI Agents
+
+1. Read this document once before implementation.
+2. Use it as the primary engineering reference.
+3. Do not assume missing requirements.
+4. Keep project context synchronized with implementation.
+5. Follow the defined lifecycle for every task.
+
+
+
 # 🤖 AIPOS Project Specification
 
 > Version: 0.1.0 (Draft)
@@ -998,8 +1021,6 @@ A project is built by developing modules.
 
 A module is successful when it fulfills one clear responsibility while remaining understandable, maintainable, and loosely coupled..
 
-
-
 ## Purpose
 
 Every AIPOS project should follow a standardized project template.
@@ -1123,6 +1144,7 @@ A project template should be:
 ## Key Principle
 
 A project template provides the foundation that allows AI agents and human developers to understand a project before implementation begins.
+
 # 7. Feature Specification
 
 ## Purpose
@@ -2030,6 +2052,7 @@ A feature is considered tested when:
 Software is not complete when the code is written.
 
 Software is complete when the expected behavior has been verified.
+
 # 12. Engineering Standards
 
 ## Purpose
@@ -2038,7 +2061,7 @@ Engineering standards establish the quality expectations for every AIPOS project
 
 They ensure that software remains consistent, maintainable, scalable, and production-ready regardless of the technologies or AI agents involved.
 
-These standards define *how* software should be built, while previous chapters define *what* should be built.
+These standards define _how_ software should be built, while previous chapters define _what_ should be built.
 
 ---
 
