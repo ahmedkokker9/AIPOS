@@ -2030,3 +2030,73 @@ A feature is considered tested when:
 Software is not complete when the code is written.
 
 Software is complete when the expected behavior has been verified.
+# 12. Engineering Standards
+
+## Purpose
+
+Defines the engineering practices followed by every AIPOS project.
+
+---
+
+## Coding Standards
+
+- Readability
+- Naming
+- Simplicity
+- Maintainability
+
+---
+
+## Architecture Standards
+
+- Separation of Concerns
+- Modularity
+- Loose Coupling
+- High Cohesion
+
+---
+
+## Testing Standards
+
+- Unit Tests
+- Integration Tests
+- E2E Tests
+
+---
+
+## Security Standards
+
+- Input Validation
+- Authentication
+- Authorization
+- Secret Management
+
+---
+
+## Performance Standards
+
+- Caching
+- Lazy Loading
+- Query Optimization
+
+---
+
+## Documentation Standards
+
+- Self-documenting Code
+- Comments
+- API Documentation
+
+---
+
+## Version Control
+
+- Small Commits
+- Meaningful Messages
+- Pull Requests
+
+---
+
+## Key Principle
+
+Every engineering decision should improve quality without introducing unnecessary complexity.
