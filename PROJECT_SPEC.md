@@ -1473,3 +1473,191 @@ Example:
 ## Key Principle
 
 Every API should be predictable, secure, well-documented, and easy to consume by both humans and software.
+
+# 9. Database Specification
+
+## Purpose
+
+The database is the foundation of application data.
+
+A well-defined database specification ensures data consistency, maintainability, scalability, and reliable communication between different modules.
+
+Every database entity should be designed before implementation.
+
+---
+
+## Database Design Principles
+
+Every database should follow these principles:
+
+- Normalize data whenever appropriate.
+- Avoid unnecessary duplication.
+- Preserve data integrity.
+- Define clear relationships.
+- Use meaningful naming conventions.
+- Optimize for maintainability before optimization.
+
+---
+
+## Entity Structure
+
+Every database entity should include the following information.
+
+### Entity Name
+
+Provide a unique and descriptive name.
+
+Examples:
+
+- User
+- Product
+- Order
+- Category
+
+---
+
+### Purpose
+
+Describe why this entity exists.
+
+Focus on the business meaning rather than implementation details.
+
+---
+
+### Fields
+
+Document every field.
+
+Each field should specify:
+
+- Name
+- Data Type
+- Required
+- Default Value
+- Description
+
+Example:
+
+- id
+- email
+- createdAt
+- updatedAt
+
+---
+
+### Primary Key
+
+Identify the primary key.
+
+Every entity should have a unique identifier.
+
+---
+
+### Relationships
+
+Document relationships with other entities.
+
+Examples:
+
+- One-to-One
+- One-to-Many
+- Many-to-Many
+
+Each relationship should specify:
+
+- Related Entity
+- Relationship Type
+- Description
+
+---
+
+### Constraints
+
+Document database constraints.
+
+Examples:
+
+- Unique
+- Not Null
+- Foreign Key
+- Check Constraint
+
+---
+
+### Indexes
+
+Document indexes when necessary.
+
+Examples:
+
+- Unique Index
+- Composite Index
+- Search Index
+
+Indexes should improve query performance without unnecessary complexity.
+
+---
+
+### Business Rules
+
+Describe rules that affect stored data.
+
+Examples:
+
+- Email must be unique.
+- Product price cannot be negative.
+- Orders cannot exist without a customer.
+
+---
+
+### Soft Delete
+
+Specify whether the entity supports soft deletion.
+
+If enabled, document the deletion strategy.
+
+---
+
+### Audit Fields
+
+Every entity should define audit information when applicable.
+
+Examples:
+
+- createdAt
+- updatedAt
+- deletedAt
+- createdBy
+- updatedBy
+
+---
+
+### Status
+
+Track implementation progress.
+
+Suggested values:
+
+- Planned
+- In Progress
+- Completed
+- Deprecated
+
+---
+
+## Database Quality Checklist
+
+Every database design should be:
+
+- Consistent
+- Scalable
+- Secure
+- Well documented
+- Free from redundant data
+- Easy to maintain
+
+---
+
+## Key Principle
+
+The database should accurately represent the business domain while remaining simple, maintainable, and scalable.
