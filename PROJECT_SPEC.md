@@ -2184,3 +2184,55 @@ Continuous improvement should increase quality without introducing instability.
 ## Key Principle
 
 Engineering standards exist to ensure that every contribution improves the project while preserving consistency, quality, and long-term maintainability.
+
+# 13. Final Checklist
+
+Before marking any task as complete, verify the following:
+
+## Requirements
+
+- [ ] All requested functionality has been implemented.
+- [ ] Acceptance criteria have been satisfied.
+- [ ] Edge cases have been considered.
+
+---
+
+## Code Quality
+
+- [ ] No duplicated logic has been introduced.
+- [ ] Existing architecture has been preserved.
+- [ ] Code follows project conventions.
+- [ ] Unnecessary complexity has been avoided.
+
+---
+
+## Validation
+
+- [ ] Functionality has been tested.
+- [ ] Errors are handled appropriately.
+- [ ] Existing functionality remains unaffected.
+
+---
+
+## Documentation
+
+- [ ] Relevant documentation has been updated.
+- [ ] New architectural decisions have been documented.
+- [ ] Project context reflects the latest changes.
+
+---
+
+## Completion
+
+A task is complete only when:
+
+- The implementation satisfies the requested objective.
+- Project quality has been preserved.
+- Documentation is up to date.
+- The project remains maintainable.
+
+---
+
+## Final Principle
+
+Completion means delivering reliable software, not simply finishing the implementation.
