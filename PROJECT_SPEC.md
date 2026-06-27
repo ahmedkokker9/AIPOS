@@ -1,4 +1,3 @@
-
 # 🤖 AIPOS Project Specification
 
 > Version: 0.1.0 (Draft)
@@ -122,6 +121,7 @@ AIPOS is not:
 Instead, it provides structure that helps AI agents produce better software.
 
 ---
+
 # 2. AI Execution Model
 
 ## Purpose
@@ -252,6 +252,204 @@ A task is considered complete only if:
 - Existing functionality is preserved.
 - No unnecessary complexity is introduced.
 - Documentation is updated when required.
+
+# 3. Context Management
+
+## Purpose
+
+Context is the foundation of every successful AI-assisted software project.
+
+Unlike human developers, AI agents rely entirely on the information available during each interaction. Missing or inconsistent context often leads to incorrect implementations, duplicated logic, and architectural inconsistencies.
+
+AIPOS provides a structured approach to managing project context, ensuring that AI agents always have access to the information required to make consistent engineering decisions.
+
+---
+
+## Context Philosophy
+
+Every AI decision should be based on explicit project context rather than assumptions.
+
+Whenever required information is unavailable, the AI should request clarification instead of making undocumented decisions.
+
+Reliable context produces reliable software.
+
+---
+
+## Types of Context
+
+AIPOS organizes project knowledge into multiple context categories.
+
+Each category has a specific purpose and should remain independent.
+
+### Project Context
+
+Defines the project's overall purpose.
+
+Includes:
+
+- Project vision
+- Business goals
+- Scope
+- Technology stack
+
+This context changes infrequently.
+
+---
+
+### Architecture Context
+
+Defines how the software is structured.
+
+Includes:
+
+- Architecture
+- Module boundaries
+- Design patterns
+- Folder organization
+
+Architectural consistency should always be preserved.
+
+---
+
+### Task Context
+
+Represents the current work being performed.
+
+Includes:
+
+- Current objective
+- Requirements
+- Dependencies
+- Acceptance criteria
+
+Task context is temporary.
+
+---
+
+### Decision Context
+
+Stores important engineering decisions made throughout the project.
+
+Examples include:
+
+- Technology selection
+- Architectural changes
+- Design trade-offs
+
+Decisions should remain traceable.
+
+---
+
+### Progress Context
+
+Represents the current state of the project.
+
+Includes:
+
+- Completed work
+- Current milestone
+- Active tasks
+- Known blockers
+
+This context evolves continuously.
+
+---
+
+### Historical Context
+
+Captures previous implementations and project evolution.
+
+Historical context allows future AI agents to understand why the project reached its current state.
+
+---
+
+## Context Loading Strategy
+
+AI agents should load only the context required for the current task.
+
+Avoid unnecessary information that does not contribute to the implementation.
+
+Loading relevant context improves consistency while reducing cognitive overhead.
+
+---
+
+## Context Priority
+
+When multiple sources of information exist, they should be considered in the following order:
+
+1. Explicit user instructions.
+2. Current project specification.
+3. Existing project implementation.
+4. Previous engineering decisions.
+5. General engineering best practices.
+
+Never allow assumptions to override explicit project requirements.
+
+---
+
+## Context Integrity
+
+Project context should always remain:
+
+- Accurate
+- Consistent
+- Up to date
+- Non-duplicated
+- Traceable
+
+Every important change should be reflected in the appropriate project documentation.
+
+---
+
+## Context Boundaries
+
+Different context types should not be mixed unnecessarily.
+
+For example:
+
+- Architecture should not describe coding style.
+- Progress should not redefine project goals.
+- Historical decisions should not replace current requirements.
+
+Each context should have a single responsibility.
+
+---
+
+## Missing Context
+
+When required context is unavailable, AI agents should:
+
+1. Search the existing project.
+2. Review the project specification.
+3. Ask for clarification if necessary.
+
+Never invent project requirements.
+
+---
+
+## Context Quality Checklist
+
+A well-maintained project context should be:
+
+- Complete
+- Consistent
+- Up to date
+- Easy to understand
+- Free from duplication
+- Structured
+- Actionable
+- Relevant
+
+Poor context leads to poor software.
+
+---
+
+## Key Principle
+
+AI agents should rely on structured project context rather than temporary conversation history whenever possible.
+
+AIPOS exists to make project knowledge persistent, reliable, and reusable across the entire software development lifecycle.
+
 # 3. Context Management
 
 ## Purpose
