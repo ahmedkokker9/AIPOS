@@ -994,4 +994,4 @@ Changes should preserve backward compatibility whenever practical.
 
 A project is built by developing modules.
 
-A module is successful when it fulfills one clear responsibility while remaining understandable, maintainable, and loosely coupled.
+A module is successful when it fulfills one clear responsibility while remaining understandable, maintainable, and loosely coupled..
