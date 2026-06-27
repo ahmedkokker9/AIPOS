@@ -646,3 +646,189 @@ Poor context leads to poor software.
 AI agents should rely on structured project context rather than temporary conversation history whenever possible.
 
 AIPOS exists to make project knowledge persistent, reliable, and reusable across the entire software development lifecycle.
+# 5. Project Specification
+
+## Purpose
+
+Every software project requires a clear and consistent specification that defines what should be built, why it should be built, and how it should evolve over time.
+
+AIPOS standardizes this specification to ensure that both AI agents and human developers work from the same source of truth throughout the entire project lifecycle.
+
+The project specification should describe the project itself, not the implementation details of a single task.
+
+---
+
+## Core Principle
+
+A project specification should answer every essential question an AI agent needs before writing code.
+
+If important information is missing, it should be considered incomplete rather than inferred.
+
+---
+
+## Standard Specification Structure
+
+Every AIPOS project specification should include the following sections.
+
+### 1. Project Information
+
+Provides a high-level overview of the project.
+
+Includes:
+
+- Project name
+- Short description
+- Project vision
+- Target users
+- Project scope
+
+---
+
+### 2. Business Objectives
+
+Defines why the project exists.
+
+Includes:
+
+- Business goals
+- User problems
+- Expected outcomes
+- Success criteria
+
+Business objectives should remain independent from technical implementation.
+
+---
+
+### 3. Functional Requirements
+
+Defines what the system must do.
+
+Requirements should describe expected behavior rather than implementation.
+
+Examples include:
+
+- User authentication
+- Product management
+- Payment processing
+- Notifications
+
+---
+
+### 4. Non-Functional Requirements
+
+Defines system quality expectations.
+
+Examples include:
+
+- Performance
+- Scalability
+- Security
+- Reliability
+- Accessibility
+- Maintainability
+
+---
+
+### 5. Technology Stack
+
+Defines the technologies used within the project.
+
+Examples include:
+
+- Programming languages
+- Frameworks
+- Databases
+- Infrastructure
+- External services
+
+Technology choices should be documented explicitly.
+
+---
+
+### 6. System Architecture
+
+Describes how the software is organized.
+
+Includes:
+
+- Architectural style
+- Project structure
+- Major modules
+- Service boundaries
+- Data flow
+
+Architecture should remain stable throughout the project lifecycle.
+
+---
+
+### 7. Development Standards
+
+Defines engineering conventions followed by the project.
+
+Examples include:
+
+- Coding standards
+- Naming conventions
+- Folder organization
+- Testing strategy
+- Git workflow
+
+Development standards promote consistency across contributors.
+
+---
+
+### 8. Project Context
+
+Provides the information required to understand the current state of the project.
+
+Includes:
+
+- Active milestone
+- Current progress
+- Important decisions
+- Known limitations
+- Future plans
+
+Project context should evolve continuously.
+
+---
+
+## Specification Characteristics
+
+A high-quality project specification should be:
+
+- Complete
+- Accurate
+- Consistent
+- Structured
+- Easy to navigate
+- Maintainable
+- Free from duplication
+
+---
+
+## Specification Ownership
+
+The project specification is the primary source of truth.
+
+Whenever conflicts exist between undocumented assumptions and the specification, the specification takes precedence.
+
+All significant project changes should eventually be reflected in the specification.
+
+---
+
+## Specification Maintenance
+
+The specification should evolve alongside the software.
+
+Outdated documentation reduces implementation quality and should be updated whenever major project changes occur.
+
+Documentation is part of the project, not an optional artifact.
+
+---
+
+## Key Principle
+
+The project specification defines the knowledge required to build the project successfully.
+
+High-quality software begins with high-quality project knowledge.
