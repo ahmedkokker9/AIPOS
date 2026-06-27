@@ -646,6 +646,7 @@ Poor context leads to poor software.
 AI agents should rely on structured project context rather than temporary conversation history whenever possible.
 
 AIPOS exists to make project knowledge persistent, reliable, and reusable across the entire software development lifecycle.
+
 # 5. Project Specification
 
 ## Purpose
@@ -832,6 +833,7 @@ Documentation is part of the project, not an optional artifact.
 The project specification defines the knowledge required to build the project successfully.
 
 High-quality software begins with high-quality project knowledge.
+
 # 6. Module Specification
 
 ## Purpose
@@ -995,3 +997,129 @@ Changes should preserve backward compatibility whenever practical.
 A project is built by developing modules.
 
 A module is successful when it fulfills one clear responsibility while remaining understandable, maintainable, and loosely coupled..
+
+# 7. Project Template
+
+## Purpose
+
+Every AIPOS project should follow a standardized project template.
+
+The template defines the minimum information required before implementation begins.
+
+Using a consistent template improves project clarity, reduces ambiguity, and enables AI agents to understand projects with minimal onboarding.
+
+---
+
+## Required Project Information
+
+Every project should define:
+
+### Project Name
+
+A unique, descriptive project name.
+
+---
+
+### Description
+
+A concise summary explaining the project's purpose.
+
+---
+
+### Vision
+
+The long-term objective of the project.
+
+---
+
+### Target Users
+
+Identify the intended users of the system.
+
+Examples:
+
+- Customers
+- Administrators
+- Employees
+- Students
+
+---
+
+### Scope
+
+Clearly define what is included and excluded from the project.
+
+---
+
+### Business Goals
+
+Describe the outcomes the project aims to achieve.
+
+---
+
+### Technology Stack
+
+Document the selected technologies.
+
+Examples:
+
+- Frontend Framework
+- Backend Framework
+- Database
+- Hosting
+- Third-party Services
+
+---
+
+### Core Modules
+
+List all major project modules.
+
+Each module should reference its own specification.
+
+---
+
+### Milestones
+
+Break the project into incremental delivery stages.
+
+Every milestone should produce usable progress.
+
+---
+
+### Current Status
+
+Track the project's current implementation state.
+
+Include:
+
+- Current milestone
+- Active tasks
+- Completed work
+- Known blockers
+
+---
+
+### Future Roadmap
+
+List planned features and future improvements.
+
+Roadmaps should describe direction rather than implementation details.
+
+---
+
+## Template Principles
+
+A project template should be:
+
+- Easy to understand.
+- Easy to maintain.
+- Technology independent.
+- Business oriented.
+- Free from duplicated information.
+
+---
+
+## Key Principle
+
+A project template provides the foundation that allows AI agents and human developers to understand a project before implementation begins.
