@@ -1875,3 +1875,158 @@ Every interface should be:
 ## Key Principle
 
 The user interface should help users accomplish their goals with the minimum possible complexity while maintaining consistency across the entire application.
+
+# 11. Testing Specification
+
+## Purpose
+
+Testing ensures that software behaves as expected and remains reliable as the project evolves.
+
+Every implemented feature should be validated through appropriate testing before it is considered complete.
+
+Testing is not optional; it is an essential part of the development lifecycle.
+
+---
+
+## Testing Objectives
+
+Testing should verify:
+
+- Functional correctness
+- Business requirements
+- System stability
+- Error handling
+- Performance expectations
+- Security considerations when applicable
+
+---
+
+## Testing Levels
+
+### Unit Testing
+
+Verify individual functions, methods, or components in isolation.
+
+Objectives:
+
+- Validate business logic
+- Cover edge cases
+- Prevent regressions
+
+---
+
+### Integration Testing
+
+Verify communication between modules and services.
+
+Examples:
+
+- API ↔ Database
+- Authentication ↔ User Module
+- Payment ↔ Order Module
+
+Integration tests ensure that connected systems work correctly together.
+
+---
+
+### End-to-End Testing
+
+Validate complete user workflows.
+
+Examples:
+
+- User Registration
+- Login
+- Checkout Process
+- Password Reset
+
+End-to-end tests simulate real user behavior.
+
+---
+
+## Test Cases
+
+Each feature should define test cases covering:
+
+- Normal behavior
+- Invalid input
+- Edge cases
+- Permission checks
+- Error scenarios
+
+Test cases should be clear, repeatable, and measurable.
+
+---
+
+## Acceptance Testing
+
+Every feature should satisfy its acceptance criteria before completion.
+
+Acceptance testing confirms that business requirements have been fulfilled.
+
+---
+
+## Regression Testing
+
+Existing functionality should continue working after new changes.
+
+Regression testing should focus on affected modules and related features.
+
+---
+
+## Performance Testing
+
+When applicable, verify:
+
+- Response time
+- Resource usage
+- Database performance
+- Scalability
+
+Performance expectations should be documented.
+
+---
+
+## Security Testing
+
+When applicable, verify:
+
+- Authentication
+- Authorization
+- Input validation
+- Data protection
+- Sensitive information handling
+
+Security testing should be performed for all critical functionality.
+
+---
+
+## Test Documentation
+
+Every implemented feature should document:
+
+- Tested scenarios
+- Passed tests
+- Failed tests
+- Known limitations
+
+Testing results should remain traceable.
+
+---
+
+## Completion Criteria
+
+A feature is considered tested when:
+
+- Functional requirements pass.
+- Acceptance criteria are satisfied.
+- No critical defects remain.
+- Related regressions have been checked.
+
+---
+
+## Key Principle
+
+Software is not complete when the code is written.
+
+Software is complete when the expected behavior has been verified.
