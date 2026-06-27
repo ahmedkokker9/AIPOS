@@ -998,7 +998,7 @@ A project is built by developing modules.
 
 A module is successful when it fulfills one clear responsibility while remaining understandable, maintainable, and loosely coupled..
 
-# 7. Project Template
+
 
 ## Purpose
 
@@ -1123,3 +1123,154 @@ A project template should be:
 ## Key Principle
 
 A project template provides the foundation that allows AI agents and human developers to understand a project before implementation begins.
+# 7. Feature Specification
+
+## Purpose
+
+A feature represents a complete piece of functionality that delivers value to the end user.
+
+Every feature should have a clear objective, defined requirements, and measurable completion criteria.
+
+A standardized feature specification enables AI agents to implement features consistently while preserving project quality.
+
+---
+
+## Feature Structure
+
+Every feature should include the following information.
+
+### Feature Name
+
+A concise and descriptive name.
+
+Examples:
+
+- User Authentication
+- Product Search
+- Shopping Cart
+- Order Tracking
+
+---
+
+### Purpose
+
+Describe why the feature exists.
+
+Focus on business value rather than technical implementation.
+
+---
+
+### Functional Requirements
+
+List the expected behaviors of the feature.
+
+Requirements should be:
+
+- Clear
+- Testable
+- Independent
+- Unambiguous
+
+---
+
+### Dependencies
+
+Identify required modules, services, or external systems.
+
+Examples:
+
+- Authentication Module
+- User Module
+- Database
+- Payment Gateway
+
+---
+
+### Acceptance Criteria
+
+Define the conditions required for the feature to be considered complete.
+
+Acceptance criteria should be objective and verifiable.
+
+Examples:
+
+- Users can successfully log in.
+- Invalid credentials return an appropriate error.
+- Session tokens are generated correctly.
+
+---
+
+### Edge Cases
+
+Document uncommon scenarios that should be handled.
+
+Examples:
+
+- Empty input
+- Network failures
+- Invalid permissions
+- Duplicate requests
+
+---
+
+### Security Considerations
+
+Describe any security requirements related to the feature.
+
+Examples:
+
+- Authorization
+- Input validation
+- Sensitive data handling
+- Rate limiting
+
+---
+
+### Performance Considerations
+
+Document performance expectations when applicable.
+
+Examples:
+
+- Maximum response time
+- Database optimization
+- Caching
+- Pagination
+
+---
+
+### Status
+
+Track implementation progress.
+
+Suggested values:
+
+- Planned
+- In Progress
+- Completed
+- Deprecated
+
+---
+
+### Notes
+
+Optional implementation notes or future improvements.
+
+---
+
+## Feature Principles
+
+A feature should:
+
+- Deliver user value.
+- Have a clear objective.
+- Be independently understandable.
+- Minimize dependencies.
+- Be testable.
+- Be maintainable.
+
+---
+
+## Key Principle
+
+A feature is complete only when it satisfies its requirements, passes its acceptance criteria, and integrates correctly with the rest of the project.
