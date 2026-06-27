@@ -2034,69 +2034,153 @@ Software is complete when the expected behavior has been verified.
 
 ## Purpose
 
-Defines the engineering practices followed by every AIPOS project.
+Engineering standards establish the quality expectations for every AIPOS project.
+
+They ensure that software remains consistent, maintainable, scalable, and production-ready regardless of the technologies or AI agents involved.
+
+These standards define *how* software should be built, while previous chapters define *what* should be built.
 
 ---
 
-## Coding Standards
+## General Principles
 
-- Readability
-- Naming
+Every implementation should prioritize:
+
 - Simplicity
+- Consistency
+- Readability
 - Maintainability
+- Scalability
+- Reliability
+
+Avoid unnecessary complexity whenever a simpler solution achieves the same objective.
 
 ---
 
-## Architecture Standards
+## Code Quality
+
+Code should be:
+
+- Easy to read
+- Easy to understand
+- Easy to modify
+- Properly structured
+- Free from duplication
+
+Prefer clear implementations over clever solutions.
+
+---
+
+## Architecture
+
+Projects should follow these architectural principles:
 
 - Separation of Concerns
-- Modularity
+- Single Responsibility
 - Loose Coupling
 - High Cohesion
+- Modular Design
+
+Architecture should remain consistent throughout the project lifecycle.
 
 ---
 
-## Testing Standards
+## Naming
 
-- Unit Tests
-- Integration Tests
-- E2E Tests
+Names should be:
 
----
+- Descriptive
+- Consistent
+- Predictable
+- Business-oriented whenever appropriate
 
-## Security Standards
-
-- Input Validation
-- Authentication
-- Authorization
-- Secret Management
+Avoid abbreviations unless they are widely recognized.
 
 ---
 
-## Performance Standards
+## Documentation
 
-- Caching
-- Lazy Loading
-- Query Optimization
+Documentation should:
+
+- Stay synchronized with implementation.
+- Explain decisions rather than obvious code.
+- Be updated whenever significant changes occur.
+
+Outdated documentation should be corrected promptly.
 
 ---
 
-## Documentation Standards
+## Testing
 
-- Self-documenting Code
-- Comments
-- API Documentation
+Every significant implementation should be validated through appropriate testing.
+
+Testing should verify:
+
+- Functional behavior
+- Business rules
+- Edge cases
+- Error handling
+
+Software should not be considered complete until it has been validated.
+
+---
+
+## Security
+
+Security should be considered throughout development.
+
+Minimum expectations include:
+
+- Input validation
+- Proper authentication
+- Authorization checks
+- Secure secret management
+- Protection of sensitive information
+
+Security should never be treated as an afterthought.
+
+---
+
+## Performance
+
+Performance considerations should include:
+
+- Efficient database access
+- Optimized network communication
+- Resource management
+- Scalable implementations
+
+Optimize when necessary, but never sacrifice maintainability without clear justification.
 
 ---
 
 ## Version Control
 
-- Small Commits
-- Meaningful Messages
-- Pull Requests
+Project history should remain clean and understandable.
+
+Recommended practices:
+
+- Small, focused commits
+- Meaningful commit messages
+- Incremental development
+- Clear change history
+
+---
+
+## Continuous Improvement
+
+Projects should evolve through incremental improvements.
+
+When improvements are identified:
+
+- Refactor responsibly.
+- Preserve existing functionality.
+- Avoid unnecessary rewrites.
+
+Continuous improvement should increase quality without introducing instability.
 
 ---
 
 ## Key Principle
 
-Every engineering decision should improve quality without introducing unnecessary complexity.
+Engineering standards exist to ensure that every contribution improves the project while preserving consistency, quality, and long-term maintainability.
