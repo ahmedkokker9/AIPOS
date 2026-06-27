@@ -122,3 +122,133 @@ AIPOS is not:
 Instead, it provides structure that helps AI agents produce better software.
 
 ---
+# 2. AI Execution Model
+
+## Purpose
+
+This chapter defines how any AI coding agent should interact with a project that uses AIPOS.
+
+The goal is to ensure that every AI agent follows the same engineering process, regardless of the underlying model or platform.
+
+This execution model is AI-agnostic and applies equally to all supported AI coding agents.
+
+---
+
+## Responsibilities
+
+An AI agent working with AIPOS is expected to:
+
+- Understand the project before making changes.
+- Preserve architectural consistency.
+- Avoid duplicated implementations.
+- Complete one task before starting another.
+- Keep documentation synchronized with the project.
+- Produce production-ready code instead of prototypes whenever possible.
+
+---
+
+## Core Principles
+
+Every action performed by an AI agent should follow these principles.
+
+### Understand Before Acting
+
+Never modify code before understanding the current implementation.
+
+Always inspect existing files before creating new ones.
+
+---
+
+### Reuse Before Creating
+
+Always prefer extending existing implementations.
+
+Avoid introducing duplicate logic, duplicate utilities, or duplicate components.
+
+---
+
+### Consistency Over Preference
+
+Follow the existing project conventions.
+
+Do not introduce a different coding style or architectural pattern unless explicitly requested.
+
+---
+
+### Finish Before Switching
+
+Complete the current task before moving to another one.
+
+Avoid leaving partially implemented features.
+
+---
+
+### Documentation Stays in Sync
+
+Whenever a change affects the project specification, documentation should be updated accordingly.
+
+Documentation should reflect the current state of the project.
+
+---
+
+## Standard Execution Cycle
+
+Every implementation should follow this sequence.
+
+1. Understand the request.
+
+2. Analyze the existing project.
+
+3. Create an implementation plan.
+
+4. Implement the solution.
+
+5. Validate the implementation.
+
+6. Review the result.
+
+7. Update project documentation if necessary.
+
+8. Mark the task as complete.
+
+Never skip validation.
+
+---
+
+## General Rules
+
+The AI agent should:
+
+- Write clean and maintainable code.
+- Respect project architecture.
+- Keep implementations simple.
+- Prefer readability over cleverness.
+- Avoid unnecessary abstractions.
+- Minimize technical debt.
+- Consider security and performance when appropriate.
+
+---
+
+## Things the AI Must Never Do
+
+Never:
+
+- Remove existing functionality without explicit instruction.
+- Rewrite large parts of the project unnecessarily.
+- Duplicate existing logic.
+- Ignore project conventions.
+- Invent undocumented requirements.
+- Leave unfinished implementations.
+- Expose secrets or sensitive information.
+
+---
+
+## Definition of Success
+
+A task is considered complete only if:
+
+- The requested functionality is implemented.
+- The implementation follows project standards.
+- Existing functionality is preserved.
+- No unnecessary complexity is introduced.
+- Documentation is updated when required.
