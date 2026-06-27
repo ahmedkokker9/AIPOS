@@ -1661,3 +1661,217 @@ Every database design should be:
 ## Key Principle
 
 The database should accurately represent the business domain while remaining simple, maintainable, and scalable.
+
+# 10. UI Specification
+
+## Purpose
+
+The user interface defines how users interact with the system.
+
+A well-defined UI specification ensures consistency, usability, accessibility, and maintainability across the entire application.
+
+Every user-facing interface should be designed before implementation.
+
+---
+
+## UI Design Principles
+
+Every interface should follow these principles:
+
+- Simplicity
+- Consistency
+- Accessibility
+- Responsiveness
+- Maintainability
+- Predictability
+
+The user experience should remain consistent throughout the application.
+
+---
+
+## Screen Structure
+
+Every screen should define the following information.
+
+### Screen Name
+
+Provide a clear and descriptive name.
+
+Examples:
+
+- Login
+- Dashboard
+- Product Details
+- Checkout
+
+---
+
+### Purpose
+
+Describe the business purpose of the screen.
+
+Focus on user goals rather than technical implementation.
+
+---
+
+### Target Users
+
+Specify who can access the screen.
+
+Examples:
+
+- Guest
+- Authenticated User
+- Administrator
+
+---
+
+### Components
+
+List the UI components used on the screen.
+
+Examples:
+
+- Header
+- Sidebar
+- Navigation
+- Forms
+- Tables
+- Cards
+- Buttons
+- Modals
+
+---
+
+### User Actions
+
+Describe the actions users can perform.
+
+Examples:
+
+- Create
+- Edit
+- Delete
+- Search
+- Filter
+- Export
+
+---
+
+### Validation
+
+Specify validation requirements.
+
+Examples:
+
+- Required fields
+- Input formats
+- Length restrictions
+- Error messages
+
+Validation should provide clear feedback to users.
+
+---
+
+### Loading States
+
+Document how loading is presented.
+
+Examples:
+
+- Skeleton loaders
+- Loading spinner
+- Disabled buttons
+
+Users should always receive feedback while data is loading.
+
+---
+
+### Empty States
+
+Describe how the interface behaves when no data exists.
+
+Examples:
+
+- Empty tables
+- No search results
+- First-time setup
+
+Provide meaningful guidance whenever possible.
+
+---
+
+### Error States
+
+Document expected error scenarios.
+
+Examples:
+
+- Network failure
+- Permission denied
+- Server error
+- Validation errors
+
+Errors should be understandable and actionable.
+
+---
+
+### Responsive Behavior
+
+Describe how the interface adapts to different screen sizes.
+
+Examples:
+
+- Mobile
+- Tablet
+- Desktop
+
+Layouts should remain usable across supported devices.
+
+---
+
+### Accessibility
+
+Document accessibility requirements.
+
+Examples:
+
+- Keyboard navigation
+- Screen reader support
+- Color contrast
+- Focus indicators
+- Semantic elements
+
+Accessibility should be considered from the beginning.
+
+---
+
+### Status
+
+Track implementation progress.
+
+Suggested values:
+
+- Planned
+- In Progress
+- Completed
+- Deprecated
+
+---
+
+## UI Quality Checklist
+
+Every interface should be:
+
+- Consistent
+- Responsive
+- Accessible
+- Easy to understand
+- Easy to navigate
+- Maintainable
+
+---
+
+## Key Principle
+
+The user interface should help users accomplish their goals with the minimum possible complexity while maintaining consistency across the entire application.
