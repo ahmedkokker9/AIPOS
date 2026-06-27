@@ -832,3 +832,166 @@ Documentation is part of the project, not an optional artifact.
 The project specification defines the knowledge required to build the project successfully.
 
 High-quality software begins with high-quality project knowledge.
+# 6. Module Specification
+
+## Purpose
+
+Large software projects should be organized into independent, well-defined modules.
+
+A module represents a logical unit of functionality with a single primary responsibility.
+
+Breaking projects into modules improves maintainability, scalability, and enables AI agents to work on isolated features without requiring complete knowledge of the entire system.
+
+---
+
+## Module Principles
+
+Every module should:
+
+- Have a single responsibility.
+- Be independent whenever possible.
+- Expose clear interfaces.
+- Minimize dependencies.
+- Be easy to test.
+- Be easy to extend.
+
+---
+
+## Standard Module Structure
+
+Every module should define the following information.
+
+### Module Name
+
+A unique and descriptive name.
+
+Examples:
+
+- Authentication
+- Users
+- Products
+- Orders
+- Payments
+
+---
+
+### Purpose
+
+Describe the business responsibility of the module.
+
+Focus on what the module achieves rather than how it is implemented.
+
+---
+
+### Responsibilities
+
+List the features owned by the module.
+
+Each responsibility should be concise and clearly defined.
+
+---
+
+### Dependencies
+
+Document internal and external dependencies.
+
+Examples:
+
+- Database
+- Authentication
+- Email Service
+- Payment Gateway
+
+Dependencies should be minimized whenever possible.
+
+---
+
+### Public Interfaces
+
+Document how other modules interact with this module.
+
+Interfaces may include:
+
+- APIs
+- Services
+- Events
+- Shared contracts
+
+Modules should communicate through explicit interfaces rather than internal implementation details.
+
+---
+
+### Internal Components
+
+Describe the major components contained within the module.
+
+Examples:
+
+- Controllers
+- Services
+- Repositories
+- Models
+- Utilities
+
+The internal organization should remain consistent across all modules.
+
+---
+
+### Data Ownership
+
+Every piece of project data should have a single owning module.
+
+Avoid shared ownership whenever possible.
+
+---
+
+### Status
+
+Track the implementation status.
+
+Suggested values:
+
+- Planned
+- In Progress
+- Completed
+- Deprecated
+
+---
+
+### Notes
+
+Optional engineering notes related to the module.
+
+Examples include:
+
+- Future improvements
+- Known limitations
+- Technical considerations
+
+---
+
+## Module Independence
+
+Modules should avoid direct knowledge of each other's internal implementation.
+
+Only documented public interfaces should be used for communication.
+
+Loose coupling improves maintainability.
+
+---
+
+## Module Evolution
+
+Modules should evolve incrementally.
+
+Avoid large rewrites when small iterative improvements are sufficient.
+
+Changes should preserve backward compatibility whenever practical.
+
+---
+
+## Key Principle
+
+A project is built by developing modules.
+
+A module is successful when it fulfills one clear responsibility while remaining understandable, maintainable, and loosely coupled.
